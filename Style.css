@@ -1,0 +1,9 @@
+img {
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+
+.name {
+    font-weight: bold;
+}
