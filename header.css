@@ -1,15 +1,16 @@
 @font-face {
     font-family: myFont;
-    src: url(fonts/Rubik-Bold.ttf);
+    src: url(fonts/Rubik-Black.ttf);
 }
 
 .header{
     font-family: 'myFont';
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 
     border-color: white;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 .left{
@@ -19,7 +20,8 @@
 
 .proj{
     position: relative;
-    margin-left: 30px;
+    margin-left: 40px;
+    font-size: 30px;
     cursor: pointer;
 
     transition: color 0.3s ease, letter-spacing 0.3s ease;
@@ -33,7 +35,7 @@
 .proj:after{
     content: "";
     position: absolute;
-    bottom: 10px;
+    bottom: -12px;
     left: 50%;
     border: 3px solid rgb(112, 2, 254);
     width: 30%;
@@ -47,8 +49,8 @@
 
 .email{
     position: relative;
-    margin-left: 30px;
-    font-size: 31px;
+    margin-left: 100px;
+    font-size: 30px;
     cursor: pointer;
 
     transition: color 0.3s ease;
@@ -56,6 +58,7 @@
 
 .email:before {
     content: "Contact";
+    transition: opacity 0.3s ease;
 }
 
 .email:hover:before {
@@ -81,20 +84,19 @@
 .email:hover:after{
     width: 100%;
 }
-
 .right{
     display: flex;
     align-items: center;
 }
 
 .git{
-    height: 40px;
+    height: 35px;
     margin-right: 30px;
     cursor: pointer;
 }
 
 .in{
-    height: 40px;
-    margin-right: 30px;
+    height: 35px;
+    margin-right: 40px;
     cursor: pointer;
 }
