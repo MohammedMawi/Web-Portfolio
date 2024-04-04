@@ -24,13 +24,6 @@
     border-color: red;
 }
 
-.list{
-    /* border-style: solid; */
-    border-color: orange;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .list span{
     display: inline-flex;
     background-color: rgb(36, 36, 36);
@@ -38,4 +31,39 @@
     border-radius: 5px;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+
+.examples{
+    background-color: rgb(57, 0, 132);
+    text-align: left;
+    margin: 0px 100px 20px 100px;
+
+    border-radius: 10px;
+}
+
+.text{
+    font-family: 'myFont2';   
+    padding: 10px 20px 0px 20px;
+
+    /* border-style: solid; */
+    border-color: wheat;
+}
+
+.examples img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.examples h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.desc{
+    font-family: 'myFont2';
+    font-size: 17px;
+    /* border-style: solid; */
+    border-color: wheat;
+    padding: 0px 20px 10px 20px;
 }

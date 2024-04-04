@@ -2,6 +2,7 @@ body{
     /* font-family: myFont; */
     background-color: #151515;
     color: white;
+    margin-bottom: 100px;
 }
 
 @font-face {
