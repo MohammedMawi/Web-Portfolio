@@ -1,16 +1,8 @@
-@font-face {
-    font-family: myFont;
-    src: url(fonts/Rubik-Black.ttf);
-}
-
 .header{
-    font-family: 'myFont';
+    font-family: 'myFont3';
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-
-    border-color: white;
-    /* border-style: solid; */
 }
 
 .left{
@@ -29,7 +21,7 @@
 
 .proj:hover {
     color: rgb(112, 2, 254); /* Change text color to purple on hover */
-    letter-spacing: 7px; /* Add letter spacing on hover */
+    letter-spacing: 5px; /* Add letter spacing on hover */
 }
 
 .proj:after{

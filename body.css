@@ -1,27 +1,18 @@
-@font-face {
-    font-family: myFont2;
-    src: url(fonts/Rubik-Bold.ttf);
-}
-
-@font-face {
-    font-family: myFont3;
-    src: url(fonts/Rubik-ExtraBold.ttf);
-}
-
 .main{
     margin-top: 60px;
-    height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .info{
-    font-family: 'myFont3';
+    font-family: 'myFont';
     text-align: center;
     padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
 
     font-size: 30px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 
 
     align-items: center;
@@ -29,8 +20,6 @@
 
 .name{
     margin-bottom: 10px;
-    /* border-style: solid; */
-    /* border-color: orange; */
 
     transition: text-shadow 0.1s ease;
 }
@@ -45,20 +34,24 @@
     font-weight: bold;
     color: rgb(112, 2, 254);
 
+    padding: 10px 20px 10px 20px;
+
     background-color: transparent;
     border-style: solid;
     border-color: rgb(112, 2, 254);
     border-radius: 15px;
 
-    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 10px 100px -5px rgb(112, 2, 254);
 
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .resume:hover{
     background-color: rgb(112, 2, 254);
     color: white;
+
+    box-shadow: 0px 0px 0px 0px rgb(112, 2, 254);
 }
 
 .about{

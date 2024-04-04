@@ -1,0 +1,41 @@
+.skills {
+    font-family: 'myFont';
+    font-size: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slash{
+    color: rgb(112, 2, 254);
+}
+
+.lang{
+    text-align: center;
+
+    /* border-style: solid; */
+    border-color: blue;
+}
+
+.mine{
+    text-align: center;
+
+    /* border-style: solid; */
+    border-color: red;
+}
+
+.list{
+    /* border-style: solid; */
+    border-color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list span{
+    display: inline-flex;
+    background-color: rgb(36, 36, 36);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
