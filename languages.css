@@ -1,9 +1,11 @@
 .skills {
     font-family: 'myFont';
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 200px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .slash{
@@ -12,16 +14,6 @@
 
 .lang{
     text-align: center;
-
-    /* border-style: solid; */
-    border-color: blue;
-}
-
-.mine{
-    text-align: center;
-
-    /* border-style: solid; */
-    border-color: red;
 }
 
 .list span{
@@ -33,7 +25,19 @@
     margin-bottom: 1rem;
 }
 
-.examples{
+.list{
+    /* border-style: solid; */
+    border-color: rgb(112, 2, 254);
+}
+
+/* .mine{
+    text-align: center;
+
+    border-style: solid;
+    border-color: red;
+} */
+
+/* .examples{
     background-color: rgb(57, 0, 132);
     text-align: left;
     margin: 0px 100px 20px 100px;
@@ -45,7 +49,7 @@
     font-family: 'myFont2';   
     padding: 10px 20px 0px 20px;
 
-    /* border-style: solid; */
+    border-style: solid;
     border-color: wheat;
 }
 
@@ -63,7 +67,7 @@
 .desc{
     font-family: 'myFont2';
     font-size: 17px;
-    /* border-style: solid; */
+    border-style: solid;
     border-color: wheat;
     padding: 0px 20px 10px 20px;
-}
+} */
