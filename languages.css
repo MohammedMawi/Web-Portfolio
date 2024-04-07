@@ -1,7 +1,7 @@
 .skills {
     font-family: 'myFont';
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 150px;
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 250px;
