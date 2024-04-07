@@ -8,6 +8,11 @@ p{
     margin-bottom: 0px;
 }
 
+.link{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
