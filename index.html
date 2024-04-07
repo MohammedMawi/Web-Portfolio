@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/body.css">
     <link rel="stylesheet" href="CSS/languages.css">
     <link rel="stylesheet" href="CSS/projects.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -22,8 +23,9 @@
                 <span>Projects</span>
             </div>
 
-            <div class="email">
-                <span></span>
+            <div class="econtain">
+                <span class="email" onclick="copyToClipboard()"></span>
+                <div class="tooltip">Copied to <br> Clipboard</div>
             </div>
         </div>
 
@@ -49,7 +51,9 @@
         <!-- Name and Resume -->
         <div class="info">
             <h1 class="name">Mohammed <br> Mawi</h1>
-            <button class="resume">Resume</button>
+            <a href="Mohammed Mawi - Resume.pdf" target="_blank">
+                <button class="resume">Resume</button>
+            </a>
         </div>
 
 

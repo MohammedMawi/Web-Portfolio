@@ -76,6 +76,48 @@
 .email:hover:after{
     width: 100%;
 }
+
+.econtain {
+    position: relative;
+}
+
+.econtain .tooltip{
+    position: absolute;
+    background-color: rgb(112, 2, 254, 0);
+    padding: 10px;
+    border-radius: 5px;
+
+    color: rgb(255, 255, 255, 0);
+
+    font-size: 13px;
+    bottom: -80px;
+    left: 200px;
+
+    pointer-events: none;
+
+    transition: background-color 0.15s ease, color 0.15s ease, opacity 0.1s ease, visibility 0.1s ease;
+
+
+    /* Hide the tooltip by default */
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Show the tooltip when the .show class is added */
+.econtain .tooltip.show {
+    background-color: rgb(112, 2, 254, 0.7);
+    color: rgb(255, 255, 255, 1);
+
+    /* Make the tooltip visible */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* .econtain:hover .tooltip{
+    background-color: rgb(112, 2, 254, 0.7);
+    color: rgb(255, 255, 255, 1);
+} */
+
 .right{
     display: flex;
     align-items: center;
@@ -85,10 +127,22 @@
     height: 35px;
     margin-right: 30px;
     cursor: pointer;
+
+    transition: opacity 0.1s ease;
+}
+
+.git:hover{
+    opacity: 0.5;
 }
 
 .in{
     height: 35px;
     margin-right: 40px;
     cursor: pointer;
+
+    transition: opacity 0.1s ease;
+}
+
+.in:hover{
+    opacity: 0.5;
 }
