@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         setTimeout(function() {
             tooltip.classList.remove('show'); // And here we remove it after 1.5 seconds
-        }, 1500);
+        }, 700);
     });
 
     document.querySelector('.proj span').addEventListener('click', function() {
