@@ -90,20 +90,18 @@
 
     pointer-events: none;
 
-    transition: background-color 0.15s ease, color 0.15s ease, opacity 0.1s ease;
+    transition: opacity 0.1s ease;
 
 
     /* Hide the tooltip by default */
     /* you can use either opacity or visibility to hide the tooltip. I used both for demonstration purposes to show that they both work and do the same thing. */
     opacity: 0;
-    visibility: hidden;
 }
 
 /* Show the tooltip when the .show class is added */
 .tooltip.show {
     /* Make the tooltip visible */
     opacity: 1;
-    visibility: visible;
 }
 
 .right{
