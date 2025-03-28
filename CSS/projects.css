@@ -8,18 +8,6 @@ p{
     margin-bottom: 0px;
 }
 
-.link{
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit color from parent */
-}
-
-.projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    margin-top: 60px;
-}
-
 .contain{
     margin-top: 70px;
     text-align: center;
@@ -50,17 +38,32 @@ p{
     width: 100%;
 }
 
-.example{
-
-    /* margin-left: 50px; */
-    padding: 10px;
-    /* border-style: solid; */
-    border-color: rgb(112, 2, 254);
-
-    place-self: center;
-
-    width: 350px;
+.link{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dynamically fit items, 3 per row if possible */
+    gap: 20px; /* Space between the cards */
+    justify-content: center; /* Center the entire grid */
+    padding: 20px;
+    width: 100%; /* Ensure it spans the container */
+    max-width: 1200px; /* Set max width for large screens */
+    margin: 0 auto; /* Center the container */
+}
+
+
+.example {
+    padding: 10px;
+    border-color: rgb(112, 2, 254);
+    width: 100%; /* Make the cards flexible to fit within their grid column */
+    max-width: 350px; /* Ensure the cards don’t get too wide */
+    margin: 0 auto; /* Center the card inside its grid cell */
+    margin-top: 60px;
+}
+
 
 .thumb{
     background-color: rgb(36, 36, 36);
